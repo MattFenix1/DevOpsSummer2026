@@ -17,3 +17,9 @@
     -Search Games
     -Sort Games
     -Responsive Web Interface
+
+## Run API for Week 3
+    -Open Terminal
+    -cd to VideoGameLibraryAPI
+    -dotnet run
+    -open localhost with "/api/games" at the end
