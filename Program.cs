@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using DevOpsSummer2026.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<GameLibraryContext>(options =>
+    options.UseSqlite("Data Source=GameLibrary.db"));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
