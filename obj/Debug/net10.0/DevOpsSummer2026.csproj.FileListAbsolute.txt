@@ -212,3 +212,5 @@ C:\Users\Tyler\Desktop\DevOpsSummer2026\obj\Debug\net10.0\refint\DevOpsSummer202
 C:\Users\Tyler\Desktop\DevOpsSummer2026\obj\Debug\net10.0\DevOpsSummer2026.pdb
 C:\Users\Tyler\Desktop\DevOpsSummer2026\obj\Debug\net10.0\DevOpsSummer2026.genruntimeconfig.cache
 C:\Users\Tyler\Desktop\DevOpsSummer2026\obj\Debug\net10.0\ref\DevOpsSummer2026.dll
+C:\Users\Tyler\Desktop\DevOpsSummer2026\bin\Debug\net10.0\Npgsql.dll
+C:\Users\Tyler\Desktop\DevOpsSummer2026\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

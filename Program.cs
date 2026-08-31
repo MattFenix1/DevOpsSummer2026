@@ -3,7 +3,8 @@ using DevOpsSummer2026.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<GameLibraryContext>(options =>
-    options.UseSqlite("Data Source=GameLibrary.db"));
+    options.UseNpgsql(
+        builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
