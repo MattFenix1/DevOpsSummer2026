@@ -1,0 +1,24 @@
+﻿@model IEnumerable<VideoGameLibrary.Models.Game>
+@{
+    ViewData["Title"] = "Video Game Library";
+}
+<h1>Video Game Library</h1>
+<a asp-action="Create" 
+    class="btn btn-success mb-3">
+    Add New Game
+</a>
+@foreach (var game in Model)
+{
+    <div>
+        <h2>@game.Title</h2>
+        <p>Genre: @game.Genre</p>
+        <p>Developer: @game.Developer</p>
+        <p>Platform: @game.Platform</p>
+        <a asp-action="Details" 
+            asp-route-id="@game.Id" 
+            class="btn btn-primary">
+            View Details
+        </a>
+    </div>
+    <hr />
+}
